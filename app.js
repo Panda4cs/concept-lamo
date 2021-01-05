@@ -73,7 +73,7 @@ bot.on("message", (msg) => {
     subreddit = args[1];
     fetchData();
     msg.channel.send(
-      `subreddit is set to ${subreddit}, Hopefully you didn't misspell you existance`
+      `subreddit is being set to ${subreddit} please wait..., Hopefully you didn't misspell your existance`
     );
   }
 });
